@@ -56,3 +56,12 @@ function sumArray(array) {
           }
           return sum;
         }
+
+//Reversed sequence
+        const reverseSeq = n => {
+            let arr = [];
+            for(; n > 0; n--){
+            arr.push(n);
+            }
+            return arr;
+          };
