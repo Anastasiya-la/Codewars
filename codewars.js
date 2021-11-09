@@ -27,3 +27,8 @@ function fakeBin(x){
       }
      return "Hello, " + name + "!";
   }
+
+// You only need one - Beginner
+  function check(a, x) {
+    return a.includes(x);
+}
