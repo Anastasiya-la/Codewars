@@ -58,10 +58,18 @@ function sumArray(array) {
         }
 
 //Reversed sequence
-        const reverseSeq = n => {
+    const reverseSeq = n => {
             let arr = [];
             for(; n > 0; n--){
             arr.push(n);
             }
             return arr;
           };
+
+//Calculate average
+    function find_average(array) {
+            if(array.length < 1){
+              return 0;
+            }
+            return array.reduce((a, b) => a + b) / array.length;
+          }
