@@ -121,4 +121,12 @@ function bmi(weight, height) {
 function grow(x){
   return x.reduce((a, b) => a * b);
   }
-  
+
+//Beginner Series #1 School Paperwork
+function paperwork(n, m) {
+  if(n < 0 || m < 0){
+    return 0;
+  }
+  return n * m;
+}
+
