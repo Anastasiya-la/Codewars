@@ -156,3 +156,8 @@ var max = function(list){
   
   return Math.max(...list);
 }
+
+//MakeUpperCase
+function makeUpperCase(str) {
+  return str.toUpperCase();
+}
