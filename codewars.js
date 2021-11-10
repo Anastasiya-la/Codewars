@@ -87,4 +87,12 @@ function sumArray(array) {
         function arrayPlusArray(arr1, arr2) {
             return arr1.concat(arr2).reduce((a, b) => a + b);
             }
+// Is he gonna survive?
+function hero(bullets, dragons){
+  if (bullets >= dragons * 2){
+    return true;
+  }
+    return false;
+  }
+  
     
