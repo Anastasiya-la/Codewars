@@ -94,5 +94,12 @@ function hero(bullets, dragons){
   }
     return false;
   }
-  
+//Do I get a bonus?
+function bonusTime(salary, bonus) {
+  if(bonus){
+    return '£' + String(salary * 10);
+  }
+  return '£' + salary.toString();
+// your code here
+}
     
