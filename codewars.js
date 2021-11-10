@@ -186,3 +186,13 @@ function sum (numbers) {
    return numbers.reduce((a, b) => a + b);
     
 };
+
+//Count by X
+function countBy(x, n) {
+  var z = []
+  for (let i = 1; i <= n; i++) {
+    z.push(x * i);
+  }
+  return z
+}
+
