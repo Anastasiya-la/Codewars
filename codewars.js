@@ -221,3 +221,8 @@ function sumMix(x){
 const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
   return mpg * fuelLeft >= distanceToPump;
 };
+
+//Simple multiplication
+function simpleMultiplication(number) {
+  return number % 2 === 0 ? number * 8 : number * 9;
+}
