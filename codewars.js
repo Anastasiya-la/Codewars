@@ -130,3 +130,9 @@ function paperwork(n, m) {
   return n * m;
 }
 
+//Convert a Boolean to a String
+function booleanToString(b){
+  return b === true ? 'true' : 'false';
+  //your code here
+}
+
