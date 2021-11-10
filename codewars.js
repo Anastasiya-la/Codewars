@@ -166,3 +166,8 @@ function makeUpperCase(str) {
 function DNAtoRNA(dna) {
   return dna.split('T').join('U');
 }
+
+//Opposites Attract
+function lovefunc(flower1, flower2){
+  return flower1 % 2 !== flower2 % 2;
+ }
