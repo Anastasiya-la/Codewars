@@ -161,3 +161,8 @@ var max = function(list){
 function makeUpperCase(str) {
   return str.toUpperCase();
 }
+
+//DNA to RNA Conversion
+function DNAtoRNA(dna) {
+  return dna.split('T').join('U');
+}
