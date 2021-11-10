@@ -216,3 +216,8 @@ const rps = (p1, p2) => {
 function sumMix(x){
   return x.map(elem => +elem).reduce((a,b) => a + b);
 }
+
+//Will you make it?
+const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+  return mpg * fuelLeft >= distanceToPump;
+};
