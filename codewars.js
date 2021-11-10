@@ -177,3 +177,12 @@ function betterThanAverage(classPoints, yourPoints) {
   let averagePoint = classPoints.reduce((a, b) => a + b) / classPoints.length;
   return yourPoints > averagePoint ? true : false;
 }
+
+// Sum Array 
+function sum (numbers) {
+  if (numbers.length < 1){
+    return 0;
+  }
+   return numbers.reduce((a, b) => a + b);
+    
+};
