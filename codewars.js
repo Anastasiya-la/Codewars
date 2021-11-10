@@ -226,3 +226,12 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 function simpleMultiplication(number) {
   return number % 2 === 0 ? number * 8 : number * 9;
 }
+
+//If you can't sleep, just count sheep!!
+var countSheep = function (num){
+  let result = '';
+  for (let i = 1; i <= num; i++){
+     result += `${i} sheep...`;
+  }
+  return result;
+}
