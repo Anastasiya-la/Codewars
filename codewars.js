@@ -171,3 +171,9 @@ function DNAtoRNA(dna) {
 function lovefunc(flower1, flower2){
   return flower1 % 2 !== flower2 % 2;
  }
+
+//How good are you really?
+function betterThanAverage(classPoints, yourPoints) {
+  let averagePoint = classPoints.reduce((a, b) => a + b) / classPoints.length;
+  return yourPoints > averagePoint ? true : false;
+}
