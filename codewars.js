@@ -211,3 +211,8 @@ const rps = (p1, p2) => {
       return 'Player 2 won!';
     }
 };
+
+// Sum Mixed Array
+function sumMix(x){
+  return x.map(elem => +elem).reduce((a,b) => a + b);
+}
