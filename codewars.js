@@ -116,3 +116,9 @@ function bmi(weight, height) {
   };
   
 }
+
+//Beginner - Reduce but Grow
+function grow(x){
+  return x.reduce((a, b) => a * b);
+  }
+  
