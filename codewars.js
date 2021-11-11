@@ -507,3 +507,8 @@ function digitize(n){
   }
   return arr;
 }
+
+// reversed strings
+function solution(str){
+  return str.split('').reverse().join('');
+}
