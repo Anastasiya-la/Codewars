@@ -391,3 +391,8 @@ function divisibleBy(numbers, divisor){
 const quarterOf = (month) => {
   return Math.ceil(month / 3);
 }
+//Correct the mistakes of the character recognition software
+function correct(string)
+{
+	return string.replace(/5/g, 'S').replace(/0/g, 'O').replace(/1/g, 'I');
+}
