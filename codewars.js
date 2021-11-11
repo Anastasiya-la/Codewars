@@ -342,3 +342,12 @@ function rentalCarCost(d) {
   }
   // Your solution here
 }
+
+//Will there be enough space?
+function enough(cap, on, wait) {
+  if (cap >= wait + on){
+  return 0;
+  } else {
+    return wait + on - cap;
+  }
+}
