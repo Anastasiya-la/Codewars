@@ -386,3 +386,8 @@ function getGrade (s1, s2, s3) {
 function divisibleBy(numbers, divisor){
   return numbers.filter(el => el % divisor === 0);
 }
+
+//Quarter of the year
+const quarterOf = (month) => {
+  return Math.ceil(month / 3);
+}
