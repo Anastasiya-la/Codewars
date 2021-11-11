@@ -351,3 +351,12 @@ function enough(cap, on, wait) {
     return wait + on - cap;
   }
 }
+
+//L1: Set Alarm
+function setAlarm(employed, vacation){
+  if (employed && vacation || employed === false){
+    return false;
+  } else {
+    return true;
+  };
+  }
