@@ -302,3 +302,8 @@ function stringToArray(string){
 function doubleChar(str) {
   return str.split('').map(el => el + el).join('');
 }
+
+//Beginner Series #4 Cockroach
+function cockroachSpeed(s) {
+  return Math.floor(s * 100000 / 3600)
+}
