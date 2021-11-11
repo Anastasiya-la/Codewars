@@ -297,3 +297,8 @@ return greeting[language]||greeting["english"];
 function stringToArray(string){
   return string.split(' ');
   }
+
+//Double Char
+function doubleChar(str) {
+  return str.split('').map(el => el + el).join('');
+}
