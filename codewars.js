@@ -254,3 +254,8 @@ function feast(beast, dish) {
 function expressionMatter(a, b, c) {
   return Math.max(a + b + c, a * b * c, (a + b) * c, a * (b + c));
 }
+
+//Remove exclamation marks
+function removeExclamationMarks(s) {
+  return s.replace(/!/gi, '');
+}
