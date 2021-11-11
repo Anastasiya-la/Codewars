@@ -406,3 +406,9 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
 function twoSort(s) {
   return s.sort()[0].split('').join('***');
 }
+
+//Area or Perimeter
+const areaOrPerimeter = function(l , w) {
+  return l === w ? l * w : (l + w) * 2;
+  // Return your answer
+};
