@@ -249,3 +249,8 @@ function areYouPlayingBanjo(name) {
 function feast(beast, dish) {
   return beast[0] === dish[0] && beast[beast.length - 1] === dish[dish.length - 1]
 }
+
+//Expressions Matter
+function expressionMatter(a, b, c) {
+  return Math.max(a + b + c, a * b * c, (a + b) * c, a * (b + c));
+}
