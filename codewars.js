@@ -490,3 +490,10 @@ function even_or_odd(number){
       return "Odd"
   }
 }
+
+
+//Century from year  
+function century(year){
+  return Math.ceil(year/100);
+}
+console.log(century(1920));
