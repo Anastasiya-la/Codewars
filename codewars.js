@@ -259,3 +259,8 @@ function expressionMatter(a, b, c) {
 function removeExclamationMarks(s) {
   return s.replace(/!/gi, '');
 }
+
+//altERnaTIng cAsE <=> ALTerNAtiNG CaSe
+String.prototype.toAlternatingCase = function () {
+  return this.split('').map(elem => elem === elem.toUpperCase() ? elem.toLowerCase() : elem.toUpperCase()).join('');
+}
