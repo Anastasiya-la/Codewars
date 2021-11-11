@@ -474,3 +474,9 @@ var humanYearsCatYearsDogYears = function(humanYears) {
        return [humanYears, (humanYears - 2) * 4 + 24, (humanYears - 2) * 5 + 24 ];
    }
  }
+
+ // opposite number
+function opposite(number){
+  return number * (-1);
+  }
+  console.log(opposite(1));
