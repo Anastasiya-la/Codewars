@@ -307,3 +307,8 @@ function doubleChar(str) {
 function cockroachSpeed(s) {
   return Math.floor(s * 100000 / 3600)
 }
+
+//Can we divide it?
+function isDivideBy(number, a, b) {
+  return number % a === 0 && number % b === 0;
+}
