@@ -588,3 +588,10 @@ function positiveSum(arr){
   }
   return num;
 }
+
+// Remove First and Last Character
+
+function removeChar(str){
+  let lastChar = str.length - 1;
+  return str.slice(1,lastChar);
+}
