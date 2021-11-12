@@ -512,3 +512,12 @@ function digitize(n){
 function solution(str){
   return str.split('').reverse().join('');
 }
+
+// The Wide-Mouthed frog!
+function  mouthSize(animal){
+  if (animal==='alligator'){
+      return 'small';
+  } else {
+      return 'wide';
+  }
+}
