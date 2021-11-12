@@ -636,3 +636,17 @@ function switchItUp(number){
 function hoopCount (n) {
   return n < 10 ? 'Keep at it until you get it' : 'Great, now move on to tricks';
 }
+
+//Squash the bugs
+function findLongest(str) {
+  
+  var spl = str.split(" ");
+  var longest = 0;
+  
+  for (var i = 0; i < spl.length; i++) {
+    if (spl[i].length > longest) {
+      longest = spl[i].length;
+    }
+    }
+    return longest;
+}
