@@ -735,3 +735,8 @@ function powersOfTwo(n){
   }
   return arr;
 }
+
+//Grasshopper - If/else syntax debug
+function checkAlive (health) {
+  return health > 0;
+}
