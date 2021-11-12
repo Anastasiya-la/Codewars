@@ -740,3 +740,8 @@ function powersOfTwo(n){
 function checkAlive (health) {
   return health > 0;
 }
+
+//No zeros for heros
+function noBoringZeros(n) {
+  return Number(n.toString().replace(/0+$/, ''));
+}
