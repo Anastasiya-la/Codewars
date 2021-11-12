@@ -685,3 +685,10 @@ function createArray(number){
   
   return newArray;
 }
+
+//Sum The Strings
+function sumStr(a,b) {
+  a = +a;
+  b = +b;
+return String(a + b);
+}
