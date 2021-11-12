@@ -595,3 +595,8 @@ function removeChar(str){
   let lastChar = str.length - 1;
   return str.slice(1,lastChar);
 }
+
+//Difference of Volumes of Cuboids
+function findDifference(a, b) {
+  return Math.abs(a[0] * a[1] * a[2] - b[0] * b[1] * b[2]);
+ }
