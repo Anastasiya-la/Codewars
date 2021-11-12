@@ -655,3 +655,8 @@ function findLongest(str) {
 function fixTheMeerkat(arr) {
   return arr.reverse();
  }
+
+ //Is the string uppercase?
+ String.prototype.isUpperCase = function() {
+  return this == this.toUpperCase();
+}
