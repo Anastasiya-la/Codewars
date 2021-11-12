@@ -558,3 +558,13 @@ function removeEveryOther(arr){
     else 
     return false;
 }
+
+//Make a function that does arithmetic!
+function arithmetic(a, b, operator){
+  switch(operator){
+     case 'add': return a+b; break;
+     case 'multiply': return a*b; break;
+     case 'divide': return a/b; break;
+     case 'subtract': return a-b; break;
+  }
+}
