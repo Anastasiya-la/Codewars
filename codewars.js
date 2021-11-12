@@ -521,3 +521,8 @@ function  mouthSize(animal){
       return 'wide';
   }
 }
+
+// Disemvowel Trolls
+function disemvowel(str){
+  return str.replace(/[aouei]/gi, '');
+}
