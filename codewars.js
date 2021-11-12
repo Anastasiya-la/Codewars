@@ -541,3 +541,11 @@ var maxRedigit = function(num) {
 function odds(values){
   return values.filter(values => values%2);
 }
+
+//Removing Elements
+function removeEveryOther(arr){
+  for(let x = 1; x < arr.length; x++){
+      arr.splice(x,1);
+  }
+  return arr;
+}
