@@ -716,3 +716,8 @@ function well(x){
 function squareOrSquareRoot(array) {
   return array.map(el =>Number.isInteger(Math.sqrt(el)) ? Math.sqrt(el) : el * el);  
 }
+
+//Get Nth Even Number
+function nthEven(n){
+  return (n - 1) * 2;
+}
