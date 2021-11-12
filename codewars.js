@@ -782,3 +782,8 @@ class SmallestIntegerFinder {
   return Math.min.apply(null, args);
   }
 }
+
+// remove string spaces
+function noSpace(x){
+  return x.split(' ').join('');
+  }
