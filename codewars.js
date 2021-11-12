@@ -526,3 +526,13 @@ function  mouthSize(animal){
 function disemvowel(str){
   return str.replace(/[aouei]/gi, '');
 }
+
+//Rearrange Number to Get its Maximum
+
+var maxRedigit = function(num) {
+  if(num < 100 || num >999){
+    return null;
+  }
+  let result = +num.toString().split('').sort((a,b)=>b-a).join('');
+  return result;
+};
