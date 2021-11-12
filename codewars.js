@@ -692,3 +692,8 @@ function sumStr(a,b) {
   b = +b;
 return String(a + b);
 }
+
+//Parse nice int from char problem
+function getAge(inputString){
+  return +inputString[0];// return correct age (int). Happy coding :) 
+}
