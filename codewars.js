@@ -697,3 +697,17 @@ return String(a + b);
 function getAge(inputString){
   return +inputString[0];// return correct age (int). Happy coding :) 
 }
+
+//Well of Ideas - Easy Version
+function well(x){
+  let goodLength = x.filter(el => el === 'good').length;
+  switch(goodLength){
+      case 0:
+      return 'Fail!';
+      case 1:
+      case 2:
+      return 'Publish!';
+      default:
+      return 'I smell a series!';
+  }
+}
