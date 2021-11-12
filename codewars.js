@@ -750,3 +750,8 @@ function noBoringZeros(n) {
 function saleHotdogs(n){
   return n * (n < 5 ? 100 : n < 10 ? 95 : 90);
 }
+
+//String repeat
+  function repeatStr(n, s){
+    return s.repeat(n);
+}
