@@ -536,3 +536,8 @@ var maxRedigit = function(num) {
   let result = +num.toString().split('').sort((a,b)=>b-a).join('');
   return result;
 };
+
+// Are arrow functions odd?
+function odds(values){
+  return values.filter(values => values%2);
+}
