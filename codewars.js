@@ -656,7 +656,12 @@ function fixTheMeerkat(arr) {
   return arr.reverse();
  }
 
- //Is the string uppercase?
+//Is the string uppercase?
  String.prototype.isUpperCase = function() {
   return this == this.toUpperCase();
+}
+
+//N-th Power
+function index(array, n){
+  return array[n] ** n || -1;
 }
