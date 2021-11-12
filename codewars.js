@@ -711,3 +711,8 @@ function well(x){
       return 'I smell a series!';
   }
 }
+
+//To square(root) or not to square(root)
+function squareOrSquareRoot(array) {
+  return array.map(el =>Number.isInteger(Math.sqrt(el)) ? Math.sqrt(el) : el * el);  
+}
