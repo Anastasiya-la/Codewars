@@ -549,3 +549,12 @@ function removeEveryOther(arr){
   }
   return arr;
 }
+
+//Palindrome Strings
+  function isPalindrome(line){
+    line = line + '';
+    if(line===line.split('').reverse().join(''))
+    return true;
+    else 
+    return false;
+}
