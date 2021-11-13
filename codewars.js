@@ -841,3 +841,8 @@ function basicOp(operation, value1, value2)
 function isDivisible(n, x, y) {
   return n % x === 0 && n % y === 0;
 }
+
+//Abbreviate a Two Word Name
+function abbrevName(name){
+  return name[0].toUpperCase() + '.' + name[name.indexOf(' ') + 1].toUpperCase();
+}
