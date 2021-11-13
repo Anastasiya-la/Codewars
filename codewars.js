@@ -815,3 +815,8 @@ function getCount(str){
 function squareDigits(num){
   return Number(('' + num).split('').map(function (val){ return val * val }).join(''));
 }
+
+// counting sheep
+function countSheeps(arrayOfSheep) {
+  return arrayOfSheep.filter(sheep => 'true'.includes(sheep)).length;
+}
