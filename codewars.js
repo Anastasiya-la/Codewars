@@ -836,3 +836,8 @@ function basicOp(operation, value1, value2)
      case '/' : return value1 / value2;
   }
 }
+
+// Is n divisible by x and y?
+function isDivisible(n, x, y) {
+  return n % x === 0 && n % y === 0;
+}
