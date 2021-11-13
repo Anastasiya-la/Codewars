@@ -891,3 +891,9 @@ function countPositivesSumNegatives(input) {
 function invert(array) {
   return array.map(a => -a);
   }
+
+  // reversed words
+function reverseWords(str){
+  return str.split(' ').reverse().join(' '); 
+}
+
