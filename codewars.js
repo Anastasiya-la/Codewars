@@ -804,3 +804,9 @@ function warnTheSheep(queue) {
   let numOfSheep = queue.reverse().indexOf('wolf');
   return numOfSheep === 0 ? 'Pls go away and stop eating my sheep' : `Oi! Sheep number ${numOfSheep}! You are about to be eaten by a wolf!`;
 }
+
+// Vowel count
+function getCount(str){
+  let strToArray = Array.from(str);
+  return strToArray.filter(vowelLetter =>'aeiou'.includes(vowelLetter)).length;
+}
