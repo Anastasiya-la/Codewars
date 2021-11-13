@@ -820,3 +820,8 @@ function squareDigits(num){
 function countSheeps(arrayOfSheep) {
   return arrayOfSheep.filter(sheep => 'true'.includes(sheep)).length;
 }
+
+// keep hydrated
+function litres(time) {
+  return Math.floor(time * 0.5);
+ }
