@@ -897,3 +897,15 @@ function reverseWords(str){
   return str.split(' ').reverse().join(' '); 
 }
 
+//Get the mean of an array
+function getAverage(marks){
+  let sum = 0;
+  for(let i = 0; i < marks.length; i++){
+    sum += marks[i];
+  }
+  return Math.floor(sum / marks.length);
+}
+// Запомнить более простой вариант решения с помощью метода reduce в кодварс!!
+//function getAverage (marks) {
+//   return Math.floor(marks.reduce((a, b) => a + b, 0) / marks.length);
+//}
