@@ -914,3 +914,8 @@ function getAverage(marks){
 var stringToNumber = function(str){
   return Number(str);
 }
+
+//Function 1 - hello world
+function greet(){
+  return 'hello ' + 'world!' 
+}
