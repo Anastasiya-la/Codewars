@@ -798,3 +798,9 @@ function numberToString(num) {
 function hello(name) {
   return `Hello, ${name ? name[0].toUpperCase() + name.slice(1).toLowerCase() : 'World'}!`;
 }
+
+//A wolf in sheep's clothing
+function warnTheSheep(queue) {
+  let numOfSheep = queue.reverse().indexOf('wolf');
+  return numOfSheep === 0 ? 'Pls go away and stop eating my sheep' : `Oi! Sheep number ${numOfSheep}! You are about to be eaten by a wolf!`;
+}
