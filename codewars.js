@@ -886,3 +886,8 @@ function countPositivesSumNegatives(input) {
     }
     return [sumPos, sumNeg];
 }
+
+//invert values
+function invert(array) {
+  return array.map(a => -a);
+  }
