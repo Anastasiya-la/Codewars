@@ -846,3 +846,12 @@ function isDivisible(n, x, y) {
 function abbrevName(name){
   return name[0].toUpperCase() + '.' + name[name.indexOf(' ') + 1].toUpperCase();
 }
+
+//A Needle in the Haystack
+function findNeedle(haystack) {
+  for(let i = 0; i < haystack.length; i++){
+    if(haystack[i] === 'needle'){
+      return 'found the needle at position ' + haystack.indexOf(haystack[i]);
+    }
+  }
+}
