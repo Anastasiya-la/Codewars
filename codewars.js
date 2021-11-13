@@ -855,3 +855,16 @@ function findNeedle(haystack) {
     }
   }
 }
+
+//Beginner - Lost Without a Map
+function maps(x){
+  let newArray = [];
+  for(let i = 0; i < x.length; i++){
+    newArray.push(x[i] * 2);
+  }
+    return newArray;
+  }
+// более простой варинт решения в кодварс с помощью метода map!!
+//function maps(x){
+//    return x.map(n => n * 2);
+//}
