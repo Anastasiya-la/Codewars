@@ -810,3 +810,8 @@ function getCount(str){
   let strToArray = Array.from(str);
   return strToArray.filter(vowelLetter =>'aeiou'.includes(vowelLetter)).length;
 }
+
+// square every digit
+function squareDigits(num){
+  return Number(('' + num).split('').map(function (val){ return val * val }).join(''));
+}
