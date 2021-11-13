@@ -825,3 +825,14 @@ function countSheeps(arrayOfSheep) {
 function litres(time) {
   return Math.floor(time * 0.5);
  }
+
+ //Basic Mathematical Operations
+function basicOp(operation, value1, value2)
+{
+     switch (operation){
+     case '+' : return value1 + value2;
+     case '-' : return value1 - value2;
+     case '*' : return value1 * value2;
+     case '/' : return value1 / value2;
+  }
+}
