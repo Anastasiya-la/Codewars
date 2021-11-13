@@ -909,3 +909,8 @@ function getAverage(marks){
 //function getAverage (marks) {
 //   return Math.floor(marks.reduce((a, b) => a + b, 0) / marks.length);
 //}
+
+// Convert a String to a Number!
+var stringToNumber = function(str){
+  return Number(str);
+}
