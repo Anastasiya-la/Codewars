@@ -793,3 +793,8 @@ function numberToString(num) {
   // Return a string of the number here!
   return num.toString();
 }
+
+//Hello, Name or World!
+function hello(name) {
+  return `Hello, ${name ? name[0].toUpperCase() + name.slice(1).toLowerCase() : 'World'}!`;
+}
