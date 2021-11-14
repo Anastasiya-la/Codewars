@@ -925,3 +925,8 @@ function past(h, m, s){
   //#Happy Coding! ^_^
   return ((h*3600) + (m*60) + s) * 1000;
 }
+
+//What's the real floor?
+function getRealFloor(n) {
+  return n > 13 ? n - 2 : n > 0 ? n - 1 : n;
+}
