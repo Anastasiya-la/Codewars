@@ -930,3 +930,8 @@ function past(h, m, s){
 function getRealFloor(n) {
   return n > 13 ? n - 2 : n > 0 ? n - 1 : n;
 }
+
+//Grasshopper - Messi goals function
+function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+  return laLigaGoals + copaDelReyGoals + championsLeagueGoals;
+}
