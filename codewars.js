@@ -949,3 +949,8 @@ function arr(n){
 function solution(a, b){
   return a.length > b.length ? b + a + b : a + b + a;
 }
+
+//Is it a palindrome?
+function isPalindrome(x) {
+  return x.toLowerCase() === x.toLowerCase().split('').reverse().join('');
+}
